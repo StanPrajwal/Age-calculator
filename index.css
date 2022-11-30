@@ -1,0 +1,62 @@
+.age-calculator{
+   display: flex;
+   flex-direction: column;
+   height: 100vh;
+   justify-content: center;
+   align-items: center;
+   border: 1px solid blueviolet;
+   background-color: aqua;
+}
+.container{
+    margin: 0;
+    border:1px solid blueviolet ;
+    /* padding: 2rem; */
+}
+.container h1{
+    color: blue;
+    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.3);
+    margin: 0;
+    padding: 1rem;
+    text-align: center;
+}
+.caculator{
+padding: 3rem 2rem;
+}
+.date,.month,.year{
+    display: inline-block;
+}
+label{
+    display: block;
+}
+input{
+    width: 6rem;
+    height: 2rem;
+    outline: none;
+    border: 1px solid blue;
+
+}
+::placeholder{
+    color:blue;
+}
+.btn-container{
+    text-align: center;
+    padding: 2rem;
+}
+button{
+    padding: 1rem 4rem;
+    margin-top: 1rem;
+    color: white;
+    background-color: blue;
+    outline: none;
+    border-radius: 1rem;
+    border:none;
+    letter-spacing: 2px;
+    font-size: large;
+
+}
+p{
+    text-align: center;
+    color: blue;
+    font-size: large;
+    font-weight: bold;
+}
